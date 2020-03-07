@@ -1,0 +1,112 @@
+/*CSS for the Home Page*/
+
+#homePage {
+	background-color: rgba(30, 30, 30, 1);
+	color: white;
+}
+
+.spaces {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.images {
+	max-height: 700px;
+	border-radius: 20px;
+}
+
+/*Global classes*/
+.titleTeamSuite {
+    letter-spacing: 2.2px;
+    word-spacing: 0.6px;
+
+    font: 'Poppins', sans-serif;
+}
+
+.driverLeft {
+	float: left;
+	margin-left: 20px;
+	padding-top: 40px;
+
+	margin-bottom: 40px;
+	padding-bottom: 40px;
+}
+
+.driverRight {
+	float: right;
+	margin-right: 20px;
+	padding-top: 40px;
+
+	margin-bottom: 40px;
+	padding-bottom: 40px;
+}
+
+.spacesBetweenDiv {
+	margin-top: 30px;
+}
+
+.titleCard {
+	padding-top: 20%;
+}
+
+.buttonCard {
+	position: absolute;
+	margin-left: 10%;
+	margin-top: 15%;
+}
+
+.cardTeamsWallpapers {
+	position: relative;
+	float: left;
+	margin-left: 20px;
+	margin-top: 30px;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+.cardTeamsHistory {
+	position: relative;
+	float: right;
+	margin-right: 20px;
+	padding-bottom: 40px;
+	padding-top: 40px;
+}
+
+/*Animations*/
+
+/*Change the color of the background all the time*/
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+
+
+/*Mercedes Home Page*/
+
+#mercedesBody {
+    background-color: rgb(30,30,30);
+	color: white;
+}
+
+#ferrariBody {
+	background-color: rgb(30,30,30);
+	color: white;
+}
+
+#redbullBody {
+	background-color: rgb(30,30,30);
+	color: white;
+}
+
+#renaultBody {
+	background-color: rgb(30,30,30);
+	color: white;
+}
