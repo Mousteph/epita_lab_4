@@ -16,12 +16,6 @@
 }
 
 /*Global classes*/
-.titleTeamSuite {
-    letter-spacing: 2.2px;
-    word-spacing: 0.6px;
-
-    font: 'Poppins', sans-serif;
-}
 
 .driverLeft {
 	float: left;
@@ -72,25 +66,6 @@
 	padding-top: 40px;
 }
 
-/*Animations*/
-
-/*Change the color of the background all the time*/
-@keyframes gradient {
-	0% {
-		background-position: 0% 50%;
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0% 50%;
-	}
-}
-
-
-
-/*Mercedes Home Page*/
-
 #mercedesBody {
     background-color: rgb(30,30,30);
 	color: white;
@@ -110,3 +85,33 @@
 	background-color: rgb(30,30,30);
 	color: white;
 }
+
+.imageCircuit {
+	height: 80%;
+	width: 80%;
+}
+
+.textCircuit {
+	position: relative;
+	text-align: center;
+	padding-top: 30px;
+}
+
+.titleCardCircuit {
+	color: rgb(204,194,55);
+}
+
+#circuitHome {
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+
+
+
