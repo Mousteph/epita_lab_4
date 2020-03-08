@@ -1,7 +1,7 @@
 /*CSS for the Home Page*/
 
 #homePage {
-	background-color: rgba(30, 30, 30, 1);
+	background-color: rgba(20, 20, 20, 1);
 	color: white;
 }
 
@@ -67,22 +67,22 @@
 }
 
 #mercedesBody {
-    background-color: rgb(30,30,30);
+    background-color: rgb(20,20,20);
 	color: white;
 }
 
 #ferrariBody {
-	background-color: rgb(30,30,30);
+	background-color: rgb(20,20,20);
 	color: white;
 }
 
 #redbullBody {
-	background-color: rgb(30,30,30);
+	background-color: rgb(20,20,20);
 	color: white;
 }
 
 #renaultBody {
-	background-color: rgb(30,30,30);
+	background-color: rgb(20,20,20);
 	color: white;
 }
 
@@ -98,7 +98,7 @@
 }
 
 .titleCardCircuit {
-	color: rgb(204,194,55);
+	color: white;
 }
 
 #circuitHome {
@@ -110,6 +110,14 @@
 
 .right {
 	float: right;
+}
+
+
+.testImage {
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
 }
 
 
